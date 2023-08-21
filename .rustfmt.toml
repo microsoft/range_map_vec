@@ -1,0 +1,7 @@
+# Copyright (C) Microsoft Corporation.
+# Licensed under the MIT License.
+
+newline_style="unix"
+use_field_init_shorthand=true
+reorder_imports=true
+edition="2021"

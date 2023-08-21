@@ -1,0 +1,14 @@
+# Copyright (C) Microsoft Corporation.
+# Licensed under the MIT License.
+
+[package]
+name = "range_map_vec"
+version = "0.1.0"
+edition = "2021"
+description = "range_map_vec is an implementation of a range map data structure backed by a Vec."
+license = "MIT"
+authors = ["Microsoft"]
+keywords = ["data-structures"]
+repository = "https://github.com/microsoft/range_map_vec"
+
+[dependencies]
