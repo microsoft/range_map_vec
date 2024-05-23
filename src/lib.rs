@@ -272,7 +272,7 @@ where
     }
 
     /// Provides an iterator to iterate through the whole map.
-    pub fn iter(&self) -> impl Clone + Iterator<Item = (RangeInclusive<K>, &V)> {
+    pub fn iter(&self) -> impl Clone + DoubleEndedIterator<Item = (RangeInclusive<K>, &V)> {
         self.data
             .iter()
             .map(|(start, end, v)| (start.clone()..=end.clone(), v))
