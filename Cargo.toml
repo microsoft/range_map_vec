@@ -12,3 +12,11 @@ keywords = ["data-structures"]
 repository = "https://github.com/microsoft/range_map_vec"
 
 [dependencies]
+serde = { version = "1", optional = true }
+bitcode = { version = "0", features = ["derive"], default-features = false, optional = true }
+
+[dev-dependencies]
+serde_json = "1"
+
+[features]
+serde1 = ["serde"]
